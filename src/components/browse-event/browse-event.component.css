@@ -1,0 +1,50 @@
+/* Ensure the entire container is centered and prevents overflow */
+.container {
+    justify-content: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 100%;
+}
+
+/* Make the row a flex container and prevent cards from wrapping to the next line */
+.row {
+    display: flex;
+    flex-wrap: nowrap;          /* Prevents wrapping of cards */
+    justify-content: center;    /* Aligns items horizontally in the center */
+}
+
+/* Ensure each card keeps its width and add space between cards */
+.col-sm-2 {
+    flex: 0 0 auto;             /* Prevent column from resizing */
+    margin-right: 15px;         /* Add margin between cards */
+    text-align: center;         /* Center-align the text inside each card */
+}
+
+/* Center-align the card title and adjust the font size */
+.card-title {
+    font-size: 20px;
+    text-align: center;
+}
+
+/* Center-align the text inside the card body */
+.card-body {
+    text-align: center;
+}
+
+/* Control the card dimensions */
+.card {
+    width: 120px;               /* Set a fixed width for the card */
+}
+
+/* Optional: Add some styling for the images */
+.card-img-top {
+    object-fit: cover;          /* Ensures the image fills the card */
+    height: 100px;              /* Set a fixed height for images */
+    width: 100%;                /* Image takes full width of the card */
+}
+
+/* Additional styling for height alignment */
+.col-sm-2 {
+    text-align: center;
+    height: 184px;
+}

@@ -1,0 +1,33 @@
+.row{
+    max-width: 100%;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.col-sm-2{
+    height: 350px;
+    width: 338px;
+    margin-left: 20px;
+}
+.card-img-top{
+    height: 146px;
+}
+
+.h5{
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.card-link{
+    padding-left: 20px;
+    font-size: 14px;
+    text-decoration: none;
+    color:  #eb3467;
+    float: right;
+}
+.card-link-1{
+    padding-left: 12px;
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+    float: left;
+}

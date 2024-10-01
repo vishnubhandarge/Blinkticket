@@ -1,0 +1,21 @@
+
+.Browse-event{
+    margin-left: 100px;
+ }
+
+
+.Trending{
+    font:32px, bolder;
+    margin: 0%;
+}
+.button{
+    color: #eb3467;
+    text-decoration: none;
+    float: right;
+    padding-right: 20px;
+}
+/* .btn{
+} */
+.row{
+    margin-left: 100px;
+}

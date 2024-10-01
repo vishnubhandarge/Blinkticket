@@ -1,0 +1,83 @@
+<div class="container">
+  <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
+    <div class="carousel-inner d-flex flex-nowrap">  <!-- Flexbox added here -->
+      @for (item of cardArray; track item.name) {
+      <div class="col-sm-2 d-flex flex-column align-items-center">
+        <div class="card" style="width: 120px;">
+          <img src={{item.Image}} class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">{{item.Title}}</h5>
+            <p class="card-text">{{item.Description}}</p>
+          </div>
+        </div>
+      </div>
+      } @empty {
+
+      }
+    </div>
+  </div>
+</div>
+
+<!-- 
+<div class="row">
+  <div class="col-sm-2">
+    <div class="card" style="width: 120px;">
+      <img src="/Blinkticket/public/images/Brows Events/party_10831592.png" alt="Party" class="card-img-top"
+        alt="Party">
+      <div class="card-body">
+        <h5 class="card-title">Party</h5>
+        <p class="card-text">20 events</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-2">
+    <div class="card" style="width: 120px;">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Comedy</h5>
+        <p class="card-text">20 events</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-2">
+    <div class="card" style="width: 120px;">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Conference</h5>
+        <p class="card-text">5 events</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-2">
+    <div class="card" style="width: 120px;">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Trek</h5>
+        <p class="card-text">2 events</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-2">
+    <div class="card" style="width: 120px;">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Concert</h5>
+        <p class="card-text">12 events</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-2">
+    <div class="card" style="width: 120px;">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Meetups</h5>
+        <p class="card-text">2 events</p>
+      </div>
+    </div>
+  </div>
+</div> -->
